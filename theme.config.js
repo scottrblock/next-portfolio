@@ -1,10 +1,20 @@
 const YEAR = new Date().getFullYear()
+const TITLE = 'scottblock.com'
 
 export default {
+  navs: [
+    {
+      url: 'https://github.com/shuding/nextra',
+      name: 'Nextra'
+    }
+  ],
+  darkMode: true,
+  titleSuffix: ` | ${TITLE}`,
+
   footer: (
     <small style={{ display: 'block', marginTop: '8rem' }}>
-      <time>{YEAR}</time> © Your Name.
-      <a href="/feed.xml">RSS</a>
+      <time>{YEAR}</time>, {TITLE}
+      <a href="/feed.xml">rss</a>
       <style jsx>{`
         a {
           float: right;

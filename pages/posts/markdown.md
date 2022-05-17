@@ -1,12 +1,14 @@
 ---
-title: Markdown Examples
+title: markdown cheatsheet
 date: 2021/3/19
-description: View examples of all possible Markdown options.
-tag: web development
-author: You
+description: Nextra flavored mdx.
+tag: meta, markdown, mdx, nextra
+author: scott block
 ---
 
-# Markdown Examples
+# markdown cheatsheet
+
+[Nextra](https://nextra.vercel.app/) is [based on mdx](https://nextra.vercel.app/features/mdx). some examples are rendered below, for reference. consider this a living style guide.
 
 ## h2 Heading
 
