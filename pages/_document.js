@@ -4,7 +4,7 @@ export default function Document() {
   const meta = {
     title: 'scottblock.com',
     description: "Scott Block's personal website",
-    image: 'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png' // #TODO - change this to a logo
+    image: 'https://scottblock.com/images/sb-logo.png'
   }
 
   return (

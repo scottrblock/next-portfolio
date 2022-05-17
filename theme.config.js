@@ -2,12 +2,7 @@ const YEAR = new Date().getFullYear()
 const TITLE = 'scottblock.com'
 
 export default {
-  navs: [
-    {
-      url: 'https://github.com/shuding/nextra',
-      name: 'Nextra'
-    }
-  ],
+  navs: [],
   darkMode: true,
   titleSuffix: ` | ${TITLE}`,
 
