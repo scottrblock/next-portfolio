@@ -2,8 +2,7 @@
 title: markdown cheatsheet
 date: 2021/3/19
 description: Nextra flavored mdx.
-tag: meta, markdown, mdx, nextra
-author: scott block
+tag: markdown, mdx, nextra
 ---
 
 # markdown cheatsheet

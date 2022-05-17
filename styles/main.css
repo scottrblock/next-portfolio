@@ -127,3 +127,7 @@ html.dark {
   border-radius: 0;
   border-style: solid;
 }
+
+.dark .meta .tag {
+  background: #becdb929;
+}

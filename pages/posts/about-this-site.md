@@ -2,8 +2,7 @@
 title: about this site
 date: 2022/5/17
 description: overview of how this site is built
-tag: meta, vercel, nextjs, nextra
-author: scott block
+tag: vercel, nextjs, nextra
 ---
 
 # about this site

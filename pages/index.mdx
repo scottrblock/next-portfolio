@@ -1,18 +1,12 @@
-import { FiGithub } from 'react-icons/fi'
-import { ContactCard } from '/components/contact-card'
 ---
-
 type: page
 title: home
 date: 2021-05-17
-
 ---
-
-<style global jsx></style>
 
 # scottblock.com
 
-hi there, my name is Scott, thanks for stopping by
+hi there. my name is Scott, thank you for stopping by.
 
 ## full stack engineering
 
@@ -46,16 +40,17 @@ I strive to work in spaces that make me feel creative and energized.
 
 ---
 
+import { FiGithub, FiMail } from 'react-icons/fi'
+import { ContactCard } from '/components/contact-card'
+
 <ContactCard
   icon={<FiGithub />}
-  linkUrl="@scottrblock"
-  linkText="https://github.com/scottrblock"
+  linkUrl="https://githib.com/scottrblock"
+  linkText="github"
 />
 
-  <div>
-
-    <span>[]k)</span>
-
-  </div>
-
-    Email scott@scottblock.com
+<ContactCard
+  icon={<FiMail />}
+  linkUrl="mailto:scott@scottblock.com"
+  linkText="scott@scottblock.com"
+/>
