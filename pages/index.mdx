@@ -40,8 +40,22 @@ I strive to work in spaces that make me feel creative and energized.
 
 ---
 
-import { FiGithub, FiMail } from 'react-icons/fi'
+import { FiGithub, FiMail, FiTwitter } from 'react-icons/fi'
+import { IoLogoMastodon } from 'react-icons/io'
 import { ContactCard } from '/components/contact-card'
+
+
+<ContactCard
+  icon={<IoLogoMastodon />}
+  linkUrl="https://hci.social/@scott"
+  linkText="mastodon"
+/>
+
+<ContactCard
+  icon={<FiTwitter />}
+  linkUrl="https://twitter.com/scottonote"
+  linkText="scottonote"
+/>
 
 <ContactCard
   icon={<FiGithub />}
